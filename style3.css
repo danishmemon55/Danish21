@@ -189,6 +189,11 @@ header nav ul li a:hover {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+     .services-section{
+      position: fixed;
+      overflow: auto;
+      max-height: 100vh;
+     }
     .services-section h1 {
         font-size: 30px; /* Smaller size for mobile */
         margin-top: 0%;
@@ -215,7 +220,6 @@ header nav ul li a:hover {
         font-size: 17px; /* Adjust paragraph size for mobile */
     }
 }
-
 /* Keyframes for background animation */
 @keyframes gradient {
     0% {
