@@ -204,7 +204,9 @@ header nav ul li a:hover {
     z-index: 1;
     animation: zoomIn 1.5s ease-in-out;
 }
-
+.highlight {
+  color: #FFBF1B; /* Tomato color */
+}
 /* Title Styling */
 .about-title {
     font-size: 3em;
